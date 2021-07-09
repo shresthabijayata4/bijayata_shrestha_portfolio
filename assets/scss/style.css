@@ -238,7 +238,15 @@ footer .find_me {
   text-align: left;
 }
 
-.main_page .dribbble {
+.main_page .project-title {
+  text-align: center;
+}
+
+.main_page .project-title i {
+  font-size: 1 rem !important;
+}
+
+.main_page .project-title .dribbble {
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -246,37 +254,11 @@ footer .find_me {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-top: 10px;
 }
 
-.main_page .dribbble .dribbble_description {
-  -webkit-box-flex: 50%;
-      -ms-flex: 50%;
-          flex: 50%;
-  padding: 0 10px;
-  text-align: left;
-}
-
-.main_page .dribbble .dribbble_description button {
-  margin-top: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 250px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 20px 40px 20px 40px;
-  border-radius: 7px;
-  border: none;
-  background-color: #210048;
-  color: white;
-}
-
-.main_page .dribbble .dribbble_description button:hover {
-  background-color: #390d6b;
+.main_page .project-title .dribbble .photo {
+  padding: 0px !important;
 }
 
 .main_page .expertise {

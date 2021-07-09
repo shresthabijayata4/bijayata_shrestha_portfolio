@@ -205,35 +205,25 @@ footer {
       text-align: left;
     }
   }
-
+.project-title{
+  i{
+    font-size: 1 rem !important;
+  }
+  text-align: center;
   .dribbble {
     text-align: center;
     display: flex;
     align-items: center;
+    padding-top: 10px;
 
-    .dribbble_description {
-      flex: 50%;
-      padding: 0 10px;
-      text-align: left;
-
-      button {
-        margin-top: 20px;
-        display: flex;
-        width: 250px;
-        justify-content: space-between;
-        align-items: center;
-        padding: 20px 40px 20px 40px;
-        border-radius: 7px;
-        border: none;
-        background-color: #210048;
-        color: white;
-      }
-
-      button:hover {
-        background-color: #390d6b;
-      }
+    .photo{
+      padding: 0px !important;
     }
+
+  
   }
+}
+  
 
   .expertise {
     text-align: center;
