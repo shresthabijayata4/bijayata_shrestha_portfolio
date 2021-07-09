@@ -1,0 +1,439 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@200;400&display=swap");
+$main_color: #210048;
+$secondary_color: #f3f3f2;
+$main_font: "Montserrat",
+sans-serif;
+$secondary_font: "Poppins",
+sans-serif;
+$base_font: 2em;
+$timer: 1s;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+i {
+  font-size: 1.5rem;
+}
+
+.fa-dribbble {
+  color: #f082ac;
+}
+
+.fa-instagram {
+  color: black;
+}
+
+h1,
+h2,
+h3 {
+  font-family: $main_font;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: $base_font * 0.8;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: $base_font * 0.65;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: $base_font * 0.5;
+}
+
+p,
+a {
+  font-family: $secondary_font;
+  font-weight: 200;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  padding: 15px 60px 15px 60px;
+  border-radius: 7px;
+  border: none;
+  background-color: #210048;
+  color: white;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #390d6b;
+}
+
+body {
+  background-color: $secondary_color;
+  overflow-x: hidden;
+}
+
+.photo {
+  flex: 50%;
+  min-height: 0px;
+  padding: 50px 50px 20px 50px;
+  padding-top: 0;
+
+  img {
+    min-width: 220px;
+    max-width: 80%;
+  }
+}
+
+.navigation_box {
+  display: none;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: $secondary_color;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  z-index: 1;
+  animation: down $timer ease;
+
+  ul {
+    display: flex;
+    align-items: center;
+
+    li {
+      margin: 0 0 0 80px;
+
+      a {
+        color: black;
+      }
+    }
+  }
+
+  .burger {
+    display: none;
+  }
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: $secondary_color;
+  align-items: center;
+  animation: up $timer ease;
+
+  div {
+    flex: 50%;
+    display: flex;
+    align-items: center;
+
+    * {
+      margin: 0 10px 0 10px;
+    }
+  }
+
+  .find_me {
+    justify-content: center;
+  }
+}
+
+.main_page>div {
+  margin: 80px 0 80px 0;
+}
+
+.main_page {
+  margin: 20px;
+
+  .landing_page {
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+    .landing_text {
+      flex: 50%;
+      position: relative;
+      animation: left $timer ease forwards;
+      opacity: 0;
+
+      h2 {
+        margin-bottom: 20px;
+      }
+
+      .scroll_down {
+        margin-top: 50px;
+      }
+    }
+
+    .photo {
+      position: relative;
+      animation: right $timer ease forwards;
+      opacity: 0;
+    }
+  }
+
+  .little_about_me {
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+    .little_text {
+      flex: 50%;
+      padding: 0 10px;
+      text-align: left;
+    }
+  }
+
+  .dribbble {
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+    .dribbble_description {
+      flex: 50%;
+      padding: 0 10px;
+      text-align: left;
+
+      button {
+        margin-top: 20px;
+        display: flex;
+        width: 250px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px 20px 40px;
+        border-radius: 7px;
+        border: none;
+        background-color: #210048;
+        color: white;
+      }
+
+      button:hover {
+        background-color: #390d6b;
+      }
+    }
+  }
+
+  .expertise {
+    text-align: center;
+    margin-bottom: 0px;
+
+    .my_tools {
+      padding: 20px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .icon {
+      min-height: 70px;
+      width: 70px;
+      margin: 30px;
+    }
+
+    @for $i from 1 to 7 {
+      .my_tools :nth-child(#{$i}) {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+    }
+  }
+
+  .more_about_me {
+    margin-top: 0;
+    display: flex;
+
+    div {
+      margin-top: 20px;
+      flex: 50%;
+    }
+
+    li {
+      padding: 5px 0 5px 0;
+    }
+  }
+
+  .contact_me {
+    text-align: center;
+
+    div {
+      margin: 70px 0 70px 0;
+
+      p,
+      i {
+        margin: 10px 0 10px 0;
+        font-weight: bolder;
+      }
+    }
+  }
+}
+
+// key frames
+
+@keyframes scroll {
+  0% {
+    top: 0px;
+  }
+
+  50% {
+    top: 10px;
+  }
+
+  100% {
+    top: 0px;
+  }
+}
+
+@keyframes down {
+  0% {
+    top: -80px;
+    opacity: 0;
+  }
+
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes up {
+  0% {
+    bottom: -80px;
+    opacity: 0;
+  }
+
+  100% {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes left {
+  0% {
+    left: -100px;
+    opacity: 0;
+  }
+
+  100% {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes right {
+  0% {
+    right: -100px;
+    opacity: 0;
+  }
+
+  100% {
+    right: 0;
+    opacity: 1;
+  }
+}
+
+// responsive
+
+@media only screen and (max-width: 720px) {
+  nav {
+    ul {
+      display: none;
+    }
+
+    .burger {
+      display: block;
+    }
+  }
+
+  .main_page {
+    margin: 10px;
+  }
+
+  .photo {
+    padding: 50px;
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .copyright {
+    display: none;
+  }
+
+  .landing_page,
+  .dribbble {
+    flex-direction: column-reverse;
+  }
+
+  .little_about_me,
+  .more_about_me {
+    flex-direction: column;
+  }
+
+  .icon {
+    margin: 10px;
+  }
+
+  .navigation_box {
+    position: fixed;
+    bottom: 80px;
+    display: block;
+    padding: 30px;
+    width: 100%;
+    background-color: $secondary_color;
+    opacity: 0;
+    pointer-events: none;
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      a {
+        color: black;
+      }
+
+      li {
+        margin: 15px;
+      }
+    }
+  }
+
+  .toggle {
+    opacity: 1;
+    pointer-events: initial;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .photo {
+    padding: 20px 50px 20px 50px;
+
+    img {
+      min-width: 0px;
+    }
+  }
+
+  .landing_page {
+    .landing_text {
+      .scroll_down {
+        margin-top: 20px;
+      }
+    }
+  }
+}

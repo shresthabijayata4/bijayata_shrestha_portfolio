@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
+h1 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 14px;
+  color: #666666;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Source Sans Pro';
+}
+
+.iconify {
+  height: 30px;
+  width: 30px;
+}
+
+.main-container {
+  height: 100vh;
+  padding: 20px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.main-container__under-construction {
+  text-align: center;
+}
+
+.main-container__under-construction .under-construction {
+  display: -ms-grid;
+  display: grid;
+}
+
+.main-container__under-construction .under-construction__img img {
+  border-radius: 15px;
+  max-width: 100%;
+  width: 350px;
+}
+
+.main-container__under-construction .under-construction__details {
+  margin-top: 10px;
+}
+
+.main-container__under-construction .under-construction__details h1 {
+  font-weight: 600;
+}
+
+.main-container__under-construction .under-construction__details h3 {
+  margin-top: 5px;
+  color: #666666;
+}
+
+.main-container__under-construction .under-construction__follow {
+  margin-top: 30px;
+}
+
+.main-container__under-construction .under-construction__follow h3 {
+  font-weight: 600;
+}
+
+.main-container__under-construction .under-construction__follow p {
+  margin-top: 5px;
+}
+
+.main-container__under-construction .under-construction__follow .follow__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-container__under-construction .under-construction__follow .follow__icons .icons__single-icon {
+  cursor: pointer;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.main-container__under-construction .under-construction__follow .follow__icons .icons__single-icon:hover {
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+  -webkit-filter: brightness(0.8);
+          filter: brightness(0.8);
+}
+
+.main-container__under-construction .under-construction__follow .follow__icons .icons__single-icon--instagram {
+  color: #ff43b7;
+}
+
+.main-container__under-construction .under-construction__follow .follow__icons .icons__single-icon--behance {
+  color: #0057FF;
+}
+
+.main-container__under-construction .under-construction__follow .follow__icons .icons__single-icon--dribbble {
+  color: #C32361;
+}
+
+.main-container__under-construction .under-construction__follow .follow__icons .icons__single-icon--linkedin {
+  color: #0A66C2;
+}
+/*# sourceMappingURL=global.css.map */
