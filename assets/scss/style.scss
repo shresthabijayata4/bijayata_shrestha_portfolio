@@ -19,6 +19,7 @@ i {
   font-size: 1.5rem;
 }
 
+
 .fa-dribbble {
   color: #f082ac;
 }
@@ -168,11 +169,19 @@ footer {
       position: relative;
       animation: left $timer ease forwards;
       opacity: 0;
-
+      
+      .resume{
+        a{
+          // font-size: 15px;
+          i{
+            padding: 20px 5px 0px 5px;
+            font-size: 1rem !important;
+          }
+        }
+      }
       h2 {
         margin-bottom: 20px;
       }
-
       .scroll_down {
         margin-top: 50px;
       }
@@ -242,7 +251,10 @@ footer {
       min-height: 70px;
       width: 70px;
       margin: 30px;
+      
     }
+
+
 
     @for $i from 1 to 7 {
       .my_tools :nth-child(#{$i}) {
