@@ -212,8 +212,12 @@ footer .find_me {
   opacity: 0;
 }
 
-.main_page .landing_page .landing_text .h3 {
-  padding-top: 30px;
+.main_page .landing_page .landing_text h3 {
+  padding-top: 10px;
+}
+
+.main_page .landing_page .landing_text .resume a {
+  color: #390d6b;
 }
 
 .main_page .landing_page .landing_text .resume a i {
@@ -269,6 +273,7 @@ footer .find_me {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-bottom: 5%;
   color: #f3f3f2;
 }
 
@@ -281,7 +286,6 @@ footer .find_me {
 
 .main_page .project-title .dribbble .photo .card {
   max-width: 80%;
-  background-image: url(../images/achs.png);
   height: 250px;
   /* You must set a specified height */
   background-position: center;
@@ -295,6 +299,34 @@ footer .find_me {
   border-color: #dddddd;
   -o-border-image: initial;
      border-image: initial;
+}
+
+.main_page .project-title .dribbble .photo .card1 {
+  background-image: url(../images/achs.png);
+}
+
+.main_page .project-title .dribbble .photo .card2 {
+  background-image: url(../images/attendance.png);
+}
+
+.main_page .project-title .dribbble .photo .card3 {
+  background-image: url(../images/Mrassociates.png);
+}
+
+.main_page .project-title .dribbble .photo .card4 {
+  background-image: url(../images/garud.png);
+}
+
+.main_page .project-title .dribbble .photo .card5 {
+  background-image: url(../images/panagea.png);
+}
+
+.main_page .project-title .dribbble .photo .card6 {
+  background-image: url(../images/reddit.jpeg);
+}
+
+.main_page .project-title .dribbble .photo .card7 {
+  background-image: url(../images/codeigniter.jpg);
 }
 
 .main_page .project-title .dribbble .dribbble_description {
@@ -319,6 +351,19 @@ footer .find_me {
 
 .main_page .project-title .dribbble .dribbble_description .code-icon i {
   color: #f3f3f2;
+}
+
+.main_page .project-title .dribbble .dribbble_description .code-icon .view {
+  margin-left: 5px;
+}
+
+.main_page .project-title .dribbble .dribbble_description .code-icon .view a {
+  color: yellow;
+  font-size: 15px;
+}
+
+.main_page .project-title .dribbble .dribbble_description .code-icon .view a i {
+  font-size: 13px;
 }
 
 .main_page .expertise {
