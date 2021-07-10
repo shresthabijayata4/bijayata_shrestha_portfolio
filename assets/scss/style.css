@@ -303,6 +303,9 @@ footer .find_me {
 .main_page .project-title .dribbble .photo .card1 {
   background-image: url(../images/achs.png);
 }
+.main_page .project-title .dribbble .photo .card8 {
+  background-image: url(../images/trace.PNG);
+}
 
 .main_page .project-title .dribbble .photo .card2 {
   background-image: url(../images/attendance.png);
@@ -357,7 +360,7 @@ footer .find_me {
 }
 
 .main_page .project-title .dribbble .dribbble_description .code-icon .view a {
-  color:#390d6b
+  color:#390d6b !important;
   font-size: 15px;
 }
 
