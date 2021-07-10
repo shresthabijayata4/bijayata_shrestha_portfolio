@@ -292,7 +292,7 @@ footer .find_me {
   background-repeat: no-repeat;
   /* Do not repeat the image */
   background-size: cover;
-  border-radius: 20px;
+  /* border-radius: 20px; */
   border-width: 2px;
   border-style: solid;
   border-color: #dddddd;
