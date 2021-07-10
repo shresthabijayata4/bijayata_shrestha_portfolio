@@ -23,6 +23,15 @@ i {
 .fa-dribbble {
   color: #f082ac;
 }
+.fa-facebook{
+  color: #4267B2;
+}
+.fa-linkedin{
+  color: #0e76a8;
+}
+.fa-github{
+  color: black;
+}
 
 .fa-instagram {
   color: black;
@@ -208,18 +217,59 @@ footer {
     }
   }
 .project-title{
-  i{
-    font-size: 1 rem !important;
-  }
-  text-align: center;
-  .dribbble {
+  background-color: #210048;
+  color: #f3f3f2;
+  padding: 50px;
+  h1{
     text-align: center;
+    padding-bottom: 5%;
+  }
+
+  .dribbble {
+    // text-align: center;
     display: flex;
-    align-items: center;
-    padding-top: 10px;
+    // align-items: center;
+
+ 
+    color: #f3f3f2;
 
     .photo{
       padding: 0px !important;
+      flex: 50% !important;
+      
+      .card{
+        max-width: 80%;
+        background-image: url(../images/achs.png);
+        height: 250px; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover;
+          border-radius: 20px;
+          border-width: 2px;
+          border-style: solid;
+          border-color: rgb(221, 221, 221);
+          border-image: initial;
+      }
+      
+    }
+    .dribbble_description{
+      flex: 50%;
+      div{
+        padding: 5px;
+      }
+      .italic{
+        i{
+          font-size: 1em;
+        }
+      }
+      .code-icon{
+        display: flex;
+        i{
+          color: #f3f3f2 ;
+        }
+      
+      }
+    
     }
 
   
@@ -279,7 +329,7 @@ footer {
 
       p,
       i {
-        margin: 10px 0 10px 0;
+        margin: 10px 5px 10px 5px;
         font-weight: bolder;
       }
     }

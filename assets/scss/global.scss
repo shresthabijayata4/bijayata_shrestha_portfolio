@@ -1,95 +1,95 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
 
-h1{
-    font-size: 35px;
-}
+// h1{
+//     font-size: 35px;
+// }
 
-h3{
-    font-size: 16px;
-    font-weight: 400;
-}
+// h3{
+//     font-size: 16px;
+//     font-weight: 400;
+// }
 
-p{
-    font-size: 14px;
-    color: hsl(0,0, 40%);
-}
+// p{
+//     font-size: 14px;
+//     color: hsl(0,0, 40%);
+// }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Source Sans Pro';
-}
+// *{
+//     margin: 0;
+//     padding: 0;
+//     box-sizing: border-box;
+//     font-family: 'Source Sans Pro';
+// }
 
-.iconify { 
-    $size: 30px;
-    height: $size;
-    width: $size;
-}
+// .iconify { 
+//     $size: 30px;
+//     height: $size;
+//     width: $size;
+// }
 
-.main-container{
-    height: 100vh;
-    padding: 20px;
-    display: grid;
-    place-items: center;
-    &__under-construction{
-        text-align: center;
-        .under-construction{
-            display: grid;
+// .main-container{
+//     height: 100vh;
+//     padding: 20px;
+//     display: grid;
+//     place-items: center;
+//     &__under-construction{
+//         text-align: center;
+//         .under-construction{
+//             display: grid;
             
-            &__img{
-                img{
-                    border-radius: 15px;
-                    max-width: 100%;
-                    width: 350px;
-                }
-            }
-            &__details{
-                margin-top: 10px;
-                h1{
-                    font-weight: 600;
-                }
-                h3{
-                    margin-top: 5px;
-                    color: hsl(0,0, 40%);
-                }
-            }
-            &__follow{
-                margin-top: 30px;
-                h3{
-                    font-weight: 600;
-                }
-                p{
-                    margin-top: 5px;
-                }
-                .follow__icons{
-                    display: flex;
-                    gap: 10px;
-                    margin-top: 10px;
-                    justify-content: center;
-                    .icons__single-icon{
-                        cursor: pointer;
-                        transition: all .3s;
-                        &:hover{
-                            transform: translateY(-2px);
-                            filter: brightness(.8);
-                        }
+//             &__img{
+//                 img{
+//                     border-radius: 15px;
+//                     max-width: 100%;
+//                     width: 350px;
+//                 }
+//             }
+//             &__details{
+//                 margin-top: 10px;
+//                 h1{
+//                     font-weight: 600;
+//                 }
+//                 h3{
+//                     margin-top: 5px;
+//                     color: hsl(0,0, 40%);
+//                 }
+//             }
+//             &__follow{
+//                 margin-top: 30px;
+//                 h3{
+//                     font-weight: 600;
+//                 }
+//                 p{
+//                     margin-top: 5px;
+//                 }
+//                 .follow__icons{
+//                     display: flex;
+//                     gap: 10px;
+//                     margin-top: 10px;
+//                     justify-content: center;
+//                     .icons__single-icon{
+//                         cursor: pointer;
+//                         transition: all .3s;
+//                         &:hover{
+//                             transform: translateY(-2px);
+//                             filter: brightness(.8);
+//                         }
 
-                        &--instagram{
-                            color: #ff43b7;
-                        }
-                        &--behance{
-                            color: #0057FF;
-                        }
-                        &--dribbble{
-                            color: #C32361;
-                        }
-                        &--linkedin{
-                            color: #0A66C2;
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
+//                         &--instagram{
+//                             color: #ff43b7;
+//                         }
+//                         &--behance{
+//                             color: #0057FF;
+//                         }
+//                         &--dribbble{
+//                             color: #C32361;
+//                         }
+//                         &--linkedin{
+//                             color: #0A66C2;
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }

@@ -15,6 +15,18 @@ i {
   color: #f082ac;
 }
 
+.fa-facebook {
+  color: #4267B2;
+}
+
+.fa-linkedin {
+  color: #0e76a8;
+}
+
+.fa-github {
+  color: black;
+}
+
 .fa-instagram {
   color: black;
 }
@@ -243,26 +255,70 @@ footer .find_me {
 }
 
 .main_page .project-title {
-  text-align: center;
+  background-color: #210048;
+  color: #f3f3f2;
+  padding: 50px;
 }
 
-.main_page .project-title i {
-  font-size: 1 rem !important;
+.main_page .project-title h1 {
+  text-align: center;
+  padding-bottom: 5%;
 }
 
 .main_page .project-title .dribbble {
-  text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-top: 10px;
+  color: #f3f3f2;
 }
 
 .main_page .project-title .dribbble .photo {
   padding: 0px !important;
+  -webkit-box-flex: 50% !important;
+      -ms-flex: 50% !important;
+          flex: 50% !important;
+}
+
+.main_page .project-title .dribbble .photo .card {
+  max-width: 80%;
+  background-image: url(../images/achs.png);
+  height: 250px;
+  /* You must set a specified height */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  border-radius: 20px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #dddddd;
+  -o-border-image: initial;
+     border-image: initial;
+}
+
+.main_page .project-title .dribbble .dribbble_description {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+}
+
+.main_page .project-title .dribbble .dribbble_description div {
+  padding: 5px;
+}
+
+.main_page .project-title .dribbble .dribbble_description .italic i {
+  font-size: 1em;
+}
+
+.main_page .project-title .dribbble .dribbble_description .code-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main_page .project-title .dribbble .dribbble_description .code-icon i {
+  color: #f3f3f2;
 }
 
 .main_page .expertise {
@@ -353,7 +409,7 @@ footer .find_me {
 
 .main_page .contact_me div p,
 .main_page .contact_me div i {
-  margin: 10px 0 10px 0;
+  margin: 10px 5px 10px 5px;
   font-weight: bolder;
 }
 
