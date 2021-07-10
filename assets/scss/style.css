@@ -218,6 +218,7 @@ footer .find_me {
 
 .main_page .landing_page .landing_text .resume a {
   color: #390d6b;
+  font-weight: 500;
 }
 
 .main_page .landing_page .landing_text .resume a i {
@@ -362,6 +363,7 @@ footer .find_me {
 .main_page .project-title .dribbble .dribbble_description .code-icon .view a {
   color:#390d6b !important;
   font-size: 15px;
+  font-weight: 500;
 }
 
 .main_page .project-title .dribbble .dribbble_description .code-icon .view a i {
