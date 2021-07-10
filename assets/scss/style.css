@@ -200,6 +200,10 @@ footer .find_me {
   opacity: 0;
 }
 
+.main_page .landing_page .landing_text .h3 {
+  padding-top: 30px;
+}
+
 .main_page .landing_page .landing_text .resume a i {
   padding: 20px 5px 0px 5px;
   font-size: 1rem !important;
