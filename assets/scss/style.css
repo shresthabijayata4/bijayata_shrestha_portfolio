@@ -259,8 +259,7 @@ footer .find_me {
 }
 
 .main_page .project-title {
-  background-color: #210048;
-  color: #f3f3f2;
+
   padding: 50px;
 }
 
@@ -274,7 +273,7 @@ footer .find_me {
   display: -ms-flexbox;
   display: flex;
   padding-bottom: 5%;
-  color: #f3f3f2;
+  
 }
 
 .main_page .project-title .dribbble .photo {
@@ -350,7 +349,7 @@ footer .find_me {
 }
 
 .main_page .project-title .dribbble .dribbble_description .code-icon i {
-  color: #f3f3f2;
+  /* color: #f3f3f2; */
 }
 
 .main_page .project-title .dribbble .dribbble_description .code-icon .view {
@@ -358,7 +357,7 @@ footer .find_me {
 }
 
 .main_page .project-title .dribbble .dribbble_description .code-icon .view a {
-  color: yellow;
+  color:#390d6b
   font-size: 15px;
 }
 
