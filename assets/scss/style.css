@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   scroll-behavior: smooth;
 }
 
@@ -16,7 +16,7 @@ i {
 }
 
 .fa-facebook {
-  color: #4267B2;
+  color: #4267b2;
 }
 
 .fa-linkedin {
@@ -85,8 +85,8 @@ body {
 
 .photo {
   -webkit-box-flex: 50%;
-      -ms-flex: 50%;
-          flex: 50%;
+  -ms-flex: 50%;
+  flex: 50%;
   min-height: 0px;
   padding: 50px 50px 20px 50px;
   padding-top: 0;
@@ -111,15 +111,15 @@ nav {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 15px;
   z-index: 1;
   -webkit-animation: down 1s ease;
-          animation: down 1s ease;
+  animation: down 1s ease;
 }
 
 nav ul {
@@ -127,8 +127,8 @@ nav ul {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 nav ul li {
@@ -152,26 +152,26 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   background-color: #f3f3f2;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-animation: up 1s ease;
-          animation: up 1s ease;
+  animation: up 1s ease;
 }
 
 footer div {
   -webkit-box-flex: 50%;
-      -ms-flex: 50%;
-          flex: 50%;
+  -ms-flex: 50%;
+  flex: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 footer div * {
@@ -180,8 +180,8 @@ footer div * {
 
 footer .find_me {
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .main_page > div {
@@ -198,17 +198,17 @@ footer .find_me {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .main_page .landing_page .landing_text {
   -webkit-box-flex: 50%;
-      -ms-flex: 50%;
-          flex: 50%;
+  -ms-flex: 50%;
+  flex: 50%;
   position: relative;
   -webkit-animation: left 1s ease forwards;
-          animation: left 1s ease forwards;
+  animation: left 1s ease forwards;
   opacity: 0;
 }
 
@@ -237,7 +237,7 @@ footer .find_me {
 .main_page .landing_page .photo {
   position: relative;
   -webkit-animation: right 1s ease forwards;
-          animation: right 1s ease forwards;
+  animation: right 1s ease forwards;
   opacity: 0;
 }
 
@@ -247,20 +247,19 @@ footer .find_me {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .main_page .little_about_me .little_text {
   -webkit-box-flex: 50%;
-      -ms-flex: 50%;
-          flex: 50%;
+  -ms-flex: 50%;
+  flex: 50%;
   padding: 0 10px;
   text-align: left;
 }
 
 .main_page .project-title {
-
   padding: 50px;
 }
 
@@ -274,14 +273,13 @@ footer .find_me {
   display: -ms-flexbox;
   display: flex;
   padding-bottom: 5%;
-  
 }
 
 .main_page .project-title .dribbble .photo {
   padding: 0px !important;
   -webkit-box-flex: 50% !important;
-      -ms-flex: 50% !important;
-          flex: 50% !important;
+  -ms-flex: 50% !important;
+  flex: 50% !important;
 }
 
 .main_page .project-title .dribbble .photo .card {
@@ -298,7 +296,7 @@ footer .find_me {
   border-style: solid;
   border-color: #dddddd;
   -o-border-image: initial;
-     border-image: initial;
+  border-image: initial;
 }
 
 .main_page .project-title .dribbble .photo .card1 {
@@ -329,13 +327,13 @@ footer .find_me {
 }
 
 .main_page .project-title .dribbble .photo .card7 {
-  background-image: url(../images/codeigniter.jpg);
+  background-image: url(../images/logobefore.png);
 }
 
 .main_page .project-title .dribbble .dribbble_description {
   -webkit-box-flex: 50%;
-      -ms-flex: 50%;
-          flex: 50%;
+  -ms-flex: 50%;
+  flex: 50%;
 }
 
 .main_page .project-title .dribbble .dribbble_description div {
@@ -361,7 +359,7 @@ footer .find_me {
 }
 
 .main_page .project-title .dribbble .dribbble_description .code-icon .view a {
-  color:#390d6b !important;
+  color: #390d6b !important;
   font-size: 15px;
   font-weight: 500;
 }
@@ -382,10 +380,10 @@ footer .find_me {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .main_page .expertise .icon {
@@ -440,8 +438,8 @@ footer .find_me {
 .main_page .more_about_me div {
   margin-top: 20px;
   -webkit-box-flex: 50%;
-      -ms-flex: 50%;
-          flex: 50%;
+  -ms-flex: 50%;
+  flex: 50%;
 }
 
 .main_page .more_about_me li {
@@ -597,15 +595,15 @@ footer .find_me {
   .dribbble {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
   }
   .little_about_me,
   .more_about_me {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .icon {
     margin: 10px;
@@ -626,11 +624,11 @@ footer .find_me {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
   .navigation_box ul a {
     color: black;
